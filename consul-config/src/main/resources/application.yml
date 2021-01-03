@@ -1,0 +1,10 @@
+server:
+  port: 4000
+
+spring:
+  application:
+    name: hong-consul-config
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500

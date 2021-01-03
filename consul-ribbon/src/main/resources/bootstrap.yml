@@ -1,0 +1,14 @@
+server:
+  port: 5003
+spring:
+  application:
+    name: hong-consul-ribbon
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        health-check-path: /h-e-a-l-t-h
+        server-list-query-tags:
+          # 在调用 consul-provider 服务时，使用 tag2 对应的服务实例
+          hong-two-consul: tag2

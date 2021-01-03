@@ -1,0 +1,13 @@
+server:
+  port: 5002
+spring:
+  application:
+    name: hong-two-consul
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        tags: tag2
+        health-check-path: /h-e-a-l-t-h
+        health-check-interval: 5s

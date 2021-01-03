@@ -1,0 +1,8 @@
+# Project exclude paths
+/consul-config/target/classes/
+/consul-consumer/target/classes/
+/consul-discovery-client/target/classes/
+/consul-provider/target/classes/
+/consul-provider-one/target/classes/
+/consul-provider-two/target/classes/
+/consul-ribbon/target/classes/

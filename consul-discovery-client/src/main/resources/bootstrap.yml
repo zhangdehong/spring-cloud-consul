@@ -1,0 +1,11 @@
+server:
+  port: 5005
+spring:
+  application:
+    name: hong-consul-discovery-client
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        health-check-path: /h-e-a-l-t-h
